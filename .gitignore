@@ -1,0 +1,5 @@
+*linux64Gcc*
+*~
+*.o
+*.dep
+*dynamicCode*

@@ -51,11 +51,8 @@ boundaryField
     right
     {
         type robin;
-        beta 0.001;
-        // refValue uniform 0; // outside temperature
-        // valueFraction uniform 0.5;
-        // refGradient uniform 0;
-        value uniform 0.0;
+        beta 0.001; // exchange coefficient
+        value uniform 0.0; // ambient temperature
     }
 
 
